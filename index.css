@@ -372,14 +372,7 @@ section .card-button .img-btn #pessoas {
   background-repeat: no-repeat;
 }
 
-/* .button #dropdown-content {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1;
+section .hero .text ul {
+  list-style-type: circle;
+  list-style: circle;
 }
-
-.button #dropdown-content.show {
-  display: block;
-} */
