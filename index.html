@@ -10,6 +10,9 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="cards.css" />
     <title>Teste - Jpedro</title>
@@ -26,12 +29,11 @@
         </h2>
 
         <h1>explorando parque do cocó</h1>
-
-        <button class="button">
-          <img src="./assets/icone.png" alt="imagem de casal" /> CONHEÇA OS
-          INSTRUTORES
-          <img src="./assets/seta6.png" alt="seta indicativa para baixo" />
-        </button>
+          <button class="button" onClick="mostrarcard()">
+            <img src="./assets/icone.png" alt="imagem de casal" /> CONHEÇA OS
+            INSTRUTORES
+            <img src="./assets/seta6.png" alt="seta indicativa para baixo" />
+          </button>
         </div>
       </div>
 
@@ -47,30 +49,32 @@
         </div>
       </div>
     </header>
-    <section>
-      <div class="card-button">
-        <div class="img-btn">
-          <img
-            id="pessoas"
-            src="./assets/imagem1.png"
-            alt="Homem e mulher explorando a antureza com mapa"
-          />
+    <div id="mostrarcard">
+      <section class="transicao">
+        <div class="card-button">
+          <div class="img-btn">
+            <img
+              id="pessoas"
+              src="./assets/imagem1.png"
+              alt="Homem e mulher explorando a antureza com mapa"
+            />
+          </div>
+          <div class="text-card-btn">
+            <p><strong>Olá, Nome do Usuário.</strong></p>
+            <p>
+              Somos Xiliane e Jovélio, seremos seus instrutores durante esta
+              aventura. Acompanharemos você durante os trajetos e atividades,
+              guiando seu processo de aprendizado até o fim.
+            </p>
+            <br />
+            <p>
+              Á seguir, <strong>acesse os cards</strong> que detalham as
+              atividades primordiais para sua jornada.
+            </p>
+          </div>
         </div>
-        <div class="text-card-btn">
-          <p><strong>Olá, Nome do Usuário.</strong></p>
-          <p>
-            Somos Xiliane e Jovélio, seremos seus instrutores durante esta
-            aventura. Acompanharemos você durante os trajetos e atividades,
-            guiando seu processo de aprendizado até o fim.
-          </p>
-          <br />
-          <p>
-            Á seguir, <strong>acesse os cards</strong> que detalham as
-            atividades primordiais para sua jornada.
-          </p>
-        </div>
-      </div>
-    </section>
+      </section>  
+    </div>
 
     <section class="hero">
       <div class="card1">
@@ -89,10 +93,12 @@
           </p>
         </div>
 
-        <button>
-          ACESSAR CONTEÚDO
-          <img src="./assets/seta7.png" alt="seta para direita" />
-        </button>
+        <a href="./index2.html">
+          <button>
+            ACESSAR CONTEÚDO
+            <img src="./assets/seta7.png" alt="seta para direita"/>
+          </button>
+        </a>
       </div>
 
       <div class="card2">
@@ -119,7 +125,7 @@
 
       <div class="card3">
         <div class="header">
-          <span>ARVORISMO</span>
+          <span>CICLISMO</span>
           <img src="./assets/icone6.png" alt="bicicleta" />
         </div>
 
@@ -135,7 +141,7 @@
 
         <button>
           ACESSAR CONTEÚDO
-          <img src="./assets/seta2.png" alt="seta para direita" />
+          <img src="./assets/seta1.png" alt="seta para direita" />
         </button>
       </div>
 
@@ -157,7 +163,7 @@
 
         <button>
           ACESSAR CONTEÚDO
-          <img src="./assets/seta7.png" alt="seta para direita" />
+          <img src="./assets/seta2.png" alt="seta para direita" />
         </button>
       </div>
     </section>
@@ -200,5 +206,6 @@
         </div>
       </div>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>

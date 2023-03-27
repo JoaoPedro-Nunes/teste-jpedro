@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="index2.css" />
     <link rel="stylesheet" href="cards.css" />
     <title>Document</title>
@@ -11,112 +21,162 @@
   <body>
     <section>
       <nav class="menu">
+        <img src="./assets/logo-unifor.png" />
         <button>
-          <img src="./assets/logo-unifor.png" />
+          <div class="seta">
+            <img id="seta" src="./assets/setaBrancaDi.png" />
+          </div>
         </button>
-        <button>
-          <img id="seta" src="./assets/setaBrancaDi.png" />
-        </button>
-        <button>
-          <img src="./assets/icone5.png" />
-        </button>
-        <button>
-          <img src="./assets/icone6.png" />
-        </button>
-        <button>
-          <img src="./assets/icone7.png" />
-        </button>
-        <button>
-          <img src="./assets/icone8.1.png" />
-        </button>
+        <ul class="collapsed-list">
+          <li>
+            <button></button>
+          </li>
+          <!-- <li>
+            <button>
+              <div class="seta">
+                <img id="seta" src="./assets/setaBrancaDi.png" />
+              </div>
+            </button>
+          </li> -->
+          <li>
+            <button>
+              <img src="./assets/icone5.png" />
+            </button>
+          </li>
+          <li>
+            <button>
+              <img src="./assets/icone6.png" />
+            </button>
+          </li>
+          <li>
+            <button>
+              <img src="./assets/icone7.png" />
+            </button>
+          </li>
+          <li>
+            <button>
+              <img src="./assets/icone8.1.png" />
+            </button>
+          </li>
+        </ul>
+        <ul class="expanded-list">
+          <li>
+            <button>
+              <img src="./assets/logunifor-completo.png" />
+            </button>
+          </li>
+          <li></li>
+          <li>
+            <button>
+              <img src="./assets/icone5.png" />
+            </button>
+          </li>
+          <li>
+            <button>
+              <img src="./assets/icone6.png" />
+            </button>
+          </li>
+          <li>
+            <button>
+              <img src="./assets/icone7.png" />
+            </button>
+          </li>
+          <li>
+            <button>
+              <img src="./assets/icone8.1.png" />
+            </button>
+          </li>
+        </ul>
       </nav>
-
-      <div class="title">
-        <div class="header">
-          <p>explorando o parque do cocó</p>
-          <span>módulo 1</span>
-        </div>
-        <div class="img">
-          <img
-            src="./assets/imagem2.png"
-            alt="desenho de mulher com mochila nas costas"
-          />
-        </div>
-      </div>
-      <div class="hero">
-        <div class="text">
-          <h1>ARVORISMO</h1>
-          <h3>que bom te encontrar aqui, explorador(a)!</h3>
-          <br />
-          <p>
-            Vamos iniciar o Módulo 1. Neste espaço, você contará com um vídeo
-            introdutório e um material de leitura.
-          </p>
-          <br />
-          <ul>
-            <li>Comece assistindo ao vídeo introdutório do percurso;</li>
-            <li>
-              Em seguida visite os materiais de leitura que nortearam sua visita
-              e atividade no Parque.
-            </li>
-            <li>
-              Para finalizar o módulo, faça o envio dos registros fotográficos
-              feitos por você na sua visita ao Parque.
-            </li>
-          </ul>
-          <br />
-          <p>Vamos desbravar?</p>
-        </div>
-        <div class="cards">
-          <div class="card-img">
-            <img src="./assets/frame1.png" alt="" />
+      <div class="content">
+        <div class="title">
+          <div class="header">
+            <p>explorando o parque do cocó</p>
+            <span>módulo 1</span>
           </div>
-          <div class="card1-p2">
-            <div class="header">
-              <span>LEITURA</span>
-              <img src="./assets/rosadosventos.png" alt="capacete" />
-            </div>
-
-            <div class="content">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam voluptas, quod, quia, voluptates quae voluptatem
-                quibusdam necessitatibus quidem quos voluptatum quas. Quisquam,
-                quae. Quisquam voluptas, quod, quia, voluptates quae voluptatem
-                quibusdam necessitatibus quidem quos voluptatum quas. Quisquam,
-                quae.
-              </p>
-            </div>
-
-            <button>
-              ACESSAR CONTEÚDO
-              <img src="./assets/seta7.png" alt="seta para direita" />
-            </button>
+          <div class="img">
+            <img
+              src="./assets/imagem2.png"
+              alt="desenho de mulher com mochila nas costas"
+            />
           </div>
-          <div class="card2-p2">
-            <div class="header">
-              <span>registros fotográficos</span>
-              <img src="./assets/camera.png" alt="capacete" />
+        </div>
+        <div class="hero">
+          <div class="text">
+            <h1>ARVORISMO</h1>
+            <h3>que bom te encontrar aqui, explorador(a)!</h3>
+            <br />
+            <p>
+              Vamos iniciar o Módulo 1. Neste espaço, você contará com um vídeo
+              introdutório e um material de leitura.
+            </p>
+            <br />
+            <ul>
+              <li>Comece assistindo ao vídeo introdutório do percurso;</li>
+              <li>
+                Em seguida visite os materiais de leitura que nortearam sua
+                visita e atividade no Parque.
+              </li>
+              <li>
+                Para finalizar o módulo, faça o envio dos registros fotográficos
+                feitos por você na sua visita ao Parque.
+              </li>
+            </ul>
+            <br />
+            <p>Vamos desbravar?</p>
+          </div>
+          <div class="cards">
+            <div class="card-img">
+              <img src="./assets/frame1.png" alt="" />
             </div>
+            <div class="card1-p2">
+              <div class="header">
+                <span>LEITURA</span>
+                <img src="./assets/rosadosventos.png" alt="capacete" />
+              </div>
 
-            <div class="content">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam voluptas, quod, quia, voluptates quae voluptatem
-                quibusdam necessitatibus quidem quos voluptatum quas. Quisquam,
-                quae. Quisquam voluptas, quod, quia, voluptates quae voluptatem
-                quibusdam necessitatibus quidem quos voluptatum quas. Quisquam,
-                quae.
-              </p>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam voluptas, quod, quia, voluptates quae voluptatem
+                  quibusdam necessitatibus quidem quos voluptatum quas.
+                  Quisquam, quae. Quisquam voluptas, quod, quia, voluptates quae
+                  voluptatem quibusdam necessitatibus quidem quos voluptatum
+                  quas. Quisquam, quae.
+                </p>
+              </div>
+
+              <button>
+                ACESSAR CONTEÚDO
+                <img src="./assets/seta7.png" alt="seta para direita" />
+              </button>
             </div>
+            <div class="card2-p2">
+              <div class="header">
+                <span>registros fotográficos</span>
+                <img src="./assets/camera.png" alt="capacete" />
+              </div>
 
-            <button>
-              ACESSAR CONTEÚDO
-              <img src="./assets/seta7.png" alt="seta para direita" />
-            </button>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam voluptas, quod, quia, voluptates quae voluptatem
+                  quibusdam necessitatibus quidem quos voluptatum quas.
+                  Quisquam, quae. Quisquam voluptas, quod, quia, voluptates quae
+                  voluptatem quibusdam necessitatibus quidem quos voluptatum
+                  quas. Quisquam, quae.
+                </p>
+              </div>
+
+              <button>
+                ACESSAR CONTEÚDO
+                <img src="./assets/seta7.png" alt="seta para direita" />
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <script src="./index.js"></script>
   </body>
 </html>
